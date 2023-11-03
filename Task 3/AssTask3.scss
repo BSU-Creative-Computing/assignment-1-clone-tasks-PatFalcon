@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0; /*para sagad sa screen gamit*/
+}
+$color1:#4E89AE;
+$color2: #43658B;
+$color3:#ed6663;
+$color4: #ffa372;
+
+@mixin screen ($min-width,$max-width){
+    @media screen and (min-width: $min-width) and (max-width:$max-width){ 
+       @content 
+    }
+}
+header{
+    display: flex;
+    align-items:end;
+    justify-content:right;
+    margin: auto;
+    flex-direction:row;
+}
+.text{
+    color:#969696;
+    padding: 10px;
+}
+body{
+    background-color: #8ccff7;
+    border: 0px;
+    margin-left: -20px;
+    margin-bottom: -10px;
+    overflow-x: hidden;
+    margin-top: 1px;
+}
+@media screen and (min-width:801px){
+    .image{
+        background-image: url(400.png);
+        height: 400px;
+        width: 400px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:800px){
+    .image{
+        background-image: url(300.png);
+        height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:480px){
+    .image{
+        background-image: url(200.png);
+        height:200px;
+        width: 200px;
+    }
+}
+.container{
+    background-color: #e2eff1;
+    padding-bottom: 55px;
+    width: 100%;
+    height: 100%;
+}
+.linya{
+    padding-top: 50px ;
+    padding-bottom: 55px;
+    height: 100%;
+}
+.linecolor1{
+    background-color: $color1;
+    height: 40px;
+    display: flex;
+}
+.linecolor2{
+    @extend .linecolor1;
+    background-color: $color2;
+}
+.linecolor3{
+    @extend .linecolor1;
+    background-color: $color3;
+}
+.linecolor4{
+    @extend .linecolor1;
+    background-color: $color4;
+}
+.linecolor1:hover,.linecolor2:hover,.linecolor3:hover,.linecolor4:hover{
+    background-color: #434343;
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @include screen(620px, 1040px){
+        flex-direction: column;
+        margin: auto;
+    }
+    @include screen(480px, 940px){
+        flex-direction: column;
+        margin: auto;
+    } 
+    @include screen(0px, 480px){
+        flex-direction: column;
+        margin: auto;
+    }
+}
+.bilog1{
+    background-color: $color1;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 5px;
+}
+.bilog2{
+    @extend .bilog1;
+    background-color: $color2;
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    margin: 5px;
+}
+.bilog3{
+    @extend .bilog1;
+    background-color: $color3;
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    margin: 5px;
+}
+.bilog4{
+    @extend .bilog1;
+    background-color: $color4;
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    margin: 5px;
+}
+.bilog1:hover,.bilog2:hover,.bilog3:hover,.bilog4:hover{
+    background-color: #434343;
+}
