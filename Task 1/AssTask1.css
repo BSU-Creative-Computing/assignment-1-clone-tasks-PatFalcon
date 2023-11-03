@@ -1,0 +1,43 @@
+body{
+    background-color: #ffffff;
+    background-color: white;
+}
+.mgalitrato {
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+}
+.Parag{
+    padding-bottom: 12%;
+    padding-top: -40%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+footer{
+   color: white;
+   text-align: center;
+   background-color: rgb(13, 13, 55);
+}
+.paa{
+    background-color: rgb(13, 13, 55);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+@media (max-width: 1024px) {
+    .mgalitrato{
+        grid-template-columns: 35% 35% 35%;
+    }
+}
+@media (max-width: 800px) {
+    .mgalitrato{
+        grid-template-columns: 50%;
+    }
+}
+@media (max-width: 480px) {
+    .mgalitrato{
+        grid-template-columns: 100%;
+    }
+}
