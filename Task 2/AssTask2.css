@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0; /*para sagad sa screen gamit*/
+}
+body{
+    overflow-x: hidden;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    background-color: rgb(38, 158, 209);
+    color: white;
+    height: 60px;
+    text-align: left;
+}
+.nav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 15px;
+    margin-right: 650px;
+    font-size: 17px;
+}
+
+.kanan ul{
+    float: right;
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: -40px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: -57px;
+    color: white;
+}
+
+.li{
+    margin-right: 10px;
+}
+.Avengers{
+    padding-left: 20%;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tit{
+    padding-bottom: 10px;
+}
+.sidemovies{
+    display: grid;
+    margin: 20px;
+    height: 100%;
+    width: 40%;
+}
+.LoneGunmen{
+    grid-column: 1;
+    grid-template-columns: 55% 45%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    margin-right: 10px;
+    padding-bottom: 70px;
+    width: 40%;
+    padding-right: -40px;
+    padding: 3px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gunman{
+    margin-right: -30px;
+    margin-left: 25px;
+    width: 80%;
+    height: 55%;
+}
+.avengersphoto{
+    margin-right: 20px;
+}
+.movie2{
+    justify-content: center;
+    margin-left: 770px ;
+    margin-top: -620px;
+    width: 600px;
+    height: 100px;
+}
+.gunmantitle{
+    margin-left: 20px;
+}
+.gunmanparag{
+    margin-left: 21px;
+}
+.button{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.Predator{
+    grid-column: 1;
+    grid-template-columns: 55% 45%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    padding-bottom: 70px;
+    width: 40%;
+    padding-right: -40px;
+    padding: 3px;
+    height: 500px;   
+}
+.predatorpic{
+    margin-right: -30px;
+    margin-left: 25px;
+    width: 80%;
+    height: 55%;   
+}
+.predatortitle{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.predatorparag{
+    margin-left: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movie3{
+    justify-content: center;
+    margin-left: 1030px ;
+    margin-top: -620px;
+    width: 600px;
+    height: 100px;
+}
+.Millenium{
+    grid-column: 1;
+    grid-template-columns: 55% 45%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    padding-bottom: 70px;
+    width: 40%;
+    padding-right: -40px;
+    padding: 3px;
+    height: 500px;     
+}
+.milleniumpic{
+    margin-right: -30px;
+    margin-left: 25px;
+    width: 80%;
+    height: 55%;   
+}
+.milleniumtitle{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.milleniumparag{
+    margin-left: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movie4{
+    justify-content: center;
+    margin-left: 770px ;
+    margin-top: -90px;
+    width: 600px;
+    height: 100px;   
+}
+.Rage{
+    grid-column: 1;
+    grid-template-columns: 55% 45%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    padding-bottom: 70px;
+    width: 40%;
+    padding-right: -40px;
+    padding: 3px;
+    height: 500px;     
+}
+.ragepic{
+    margin-right: -30px;
+    margin-left: 25px;
+    width: 80%;
+    height: 55%;  
+}
+.ragetitle{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rageparag{
+    margin-left: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movie5{
+    justify-content: center;
+    margin-left: 1030px ;
+    margin-top: -100px;
+    width: 600px;
+    height: 100px;   
+}
+.button{
+    color: white;
+    background-color: rgb(38, 158, 209);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.avengersbutton{
+    color: white;
+    background-color:rgb(38, 158, 209);
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    margin-left: 390px;
+    border-radius: 10%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gunmanbutton{
+    color: white;
+    background-color: rgb(38, 158, 209);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+    border: none;
+    margin-left: 150px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.millbutton{
+    color: white;
+    background-color: rgb(38, 158, 209);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+    border: none;
+    margin-left: 150px;
+    margin-top: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ragebutton{
+    color: white;
+    background-color: rgb(38, 158, 209);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+    border: none;
+    margin-left: 150px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 1024px) {
+    .container{
+        grid-template-columns: 35% 35% 35%;
+    }
+}
+@media (max-width: 800px) {
+    .container{
+        grid-template-columns: 50%;
+    }
+}
+@media (max-width: 480px) {
+    .container{
+        grid-template-columns: 100%;
+    }
+}
